@@ -5,10 +5,12 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 //注册
 var loginRouter = require('./routes/login');
-
+//登录
+var signinRouter = require('./routes/signin');
+//信息
+var playerRouter = require('./routes/player');
 var app = express();
 
 // view engine setup
@@ -22,8 +24,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/login', loginRouter);
+app.use('/signin', signinRouter);
+app.use('/player', playerRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
