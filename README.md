@@ -9,7 +9,19 @@ Game：https://github.com/Rythenov/DreamVortex-CocosCreator-Game
 Building...
 
 # 更新日志
-2019-12-03 23：16 更新
+2019-12-06 19:27 更新
+----------
+commit：  
+1.删除原有模块，改用express框架。  
+2.添加user、player路由。  
+3.目前包括 注册：user\login、登录：user\signin、创建角色：player\create、查询角色：player\get。 4.测试url一览：  
+用户注册：http://localhost:8888/login?userName=1&password=2  
+用户登录：http://localhost:8888/signin?userName=4&password=1  
+角色创建：http://localhost:8888/player?type=create&user_id=5&player_name=testName&player_job=warrior&player_lv=1&player_maxhp=10&player_maxmp=10&player_exp=0&player_cardstack=%7B%7D&player_cardgroup=%7B%7D&player_currentcardgroup=0&player_gold=100  
+角色查询：http://localhost:8888/player?type=get&user_id=5  
+
+
+2019-12-03 23:16 更新
 -----------------------------
 commit:  
 1.添加learning.js 主要用于学习Node.js。  

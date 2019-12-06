@@ -1,5 +1,7 @@
 var userdb = require('../database/userdb');
-
+//注册
+//testurl
+//http://localhost:8888/login?userName=1&password=2
 function login (userEmail, password, callback){
     userdb.insertUser(userEmail, password, (res, err) => {
         if(err == null && res == null){
@@ -11,6 +13,10 @@ function login (userEmail, password, callback){
     });
 }
 
+
+//登录
+//testurl
+//http://localhost:8888/signin?userName=4&password=1 
 function signin (userEmail, password, callback){
     userdb.selectUser(userEmail, (res, err) => {
         if(err == null && res != null){
