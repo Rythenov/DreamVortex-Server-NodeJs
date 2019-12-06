@@ -1,3 +1,4 @@
 
 express/server/node_modules/
 *.db
+express/server/data/
