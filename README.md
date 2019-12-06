@@ -6,7 +6,10 @@ Game：https://github.com/Rythenov/DreamVortex-CocosCreator-Game
 -------------------------------------------
 
 # 预览方式
-Building...
+用户注册：http://129.211.157.233:8888/login?userName=1&password=2  
+用户登录：http://129.211.157.233:8888/signin?userName=4&password=1  
+角色创建：http://129.211.157.233:8888/player?type=create&user_id=5&player_name=testName&player_job=warrior&player_lv=1&player_maxhp=10&player_maxmp=10&player_exp=0&player_cardstack=%7B%7D&player_cardgroup=%7B%7D&player_currentcardgroup=0&player_gold=100  
+角色查询：http://129.211.157.233:8888/player?type=get&user_id=5  
 
 # 更新日志
 2019-12-06 19:27 更新
