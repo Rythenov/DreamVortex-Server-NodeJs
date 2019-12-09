@@ -12,6 +12,10 @@ Game：https://github.com/Rythenov/DreamVortex-CocosCreator-Game
 角色查询：http://129.211.157.233:8888/player?type=get&user_id=5  
 
 # 更新日志
+2019-12-09 18:37 更新
+----------
+发烧了，停更几天
+
 2019-12-06 19:27 更新
 ----------
 commit：  
